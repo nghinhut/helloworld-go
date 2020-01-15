@@ -2,10 +2,10 @@ package main
 
 import (
   "fmt"
-  "github.com/nghinhut/helloworld-go"
+  lib "github.com/nghinhut/helloworld-go/pkg"
 )
 
 func main() {
   fmt.Println("Hello World")
-  numbersPrinter()
+  lib.numbersPrinter()
 }
