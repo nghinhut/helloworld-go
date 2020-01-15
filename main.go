@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "github.com/nghinhut/helloworld-go"
+)
 
 func main() {
   fmt.Println("Hello World")
